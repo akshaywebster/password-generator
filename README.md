@@ -4,9 +4,9 @@
 
 ## Screenshots
 
-![Desktop Screenshot](./screenshots/screenshot-desktop.png)
+![Desktop Screenshot](./screenshots/screenshot-desk.png)
 
-![Mobile Screenshot](./screenshots/screenshot-mobile.png)
+![Mobile Screenshot](./screenshots/screenshot-mob.png)
 
 ## 🛠 Made with
 
