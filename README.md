@@ -13,7 +13,6 @@
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (pretty minimal usage)
 
 ## Warnings
 
