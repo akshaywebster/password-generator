@@ -17,8 +17,9 @@
 
 ## Warnings
 
-- 🚨 UI is not fully responsive (yet) for some smaller screens (<420px) 🚨
+- 🚨 UI is not fully responsive (yet) for some smaller screens (<420px)
 - 🚨 While I built the design in pure CSS, it still utilizes some Bootstrap since Javier made the initial design with Bootstrap.
+- 🚨 The "Copy to Clipboard" button does not work, yet...
 
 # Acknowledgements:
 
