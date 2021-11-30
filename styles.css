@@ -49,7 +49,7 @@ body {
 }
 
 .row {
-  width: 80%; /* for mobile */
+  width: 90%; /* for mobile */
   /* max-width: 600px; */
   max-width: 800px;
   /* min-height: 300px; */
@@ -99,35 +99,40 @@ nav a:hover {
 
 h3 {
   color: #4a4e69;
+  font-size: 1.7rem;
+  margin-bottom: 0.9rem;
+}
+
+p {
+  color: #0077b6;
+  font-size: 18px;
+  margin-bottom: 1.2rem;
+  text-align: center;
 }
 
 /* password input style */
 .password {
   font-family: var(--ff-password);
   color: #1d3557;
-  height: 2rem;
+  height: 2.2rem;
   letter-spacing: 1.5px;
   font-size: 1.2rem;
   border-radius: 5px;
   padding-left: 5px;
   border: 2px solid #1d3557;
   font-size: clamp(1rem, 2vw, 1.3rem); /* responsive font size */
+  margin-bottom: 0.8rem;
 }
 
 /* buttons */
 .buttons {
+  margin-top: 1.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
 }
-
-/* @media screen and (max-width: 480px) {
-  .password {
-    font-size: 1rem;
-  }
-} */
 
 /* generate button */
 .generate {
@@ -137,6 +142,8 @@ h3 {
   border-radius: 10px;
   box-shadow: var(--shadow-elevation-inner);
   border: 2px solid #346792;
+  font-size: 19px;
+  margin-bottom: 1rem;
 }
 
 /* copy button */
@@ -146,6 +153,8 @@ h3 {
   border-radius: 10px;
   box-shadow: var(--shadow-elevation-inner);
   border: 2px solid #346792;
+  font-size: 19px;
+  margin-bottom: 1rem;
 }
 
 .generate:hover,
@@ -153,6 +162,18 @@ h3 {
   background-color: #9fcbff;
   transform: scale(1.1);
   transition: var(--transition);
+}
+
+@media screen and (max-width: 468px) {
+  .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .generate {
+    margin-right: 0;
+    margin-bottom: 1.2rem;
+  }
 }
 
 /* #slider {
