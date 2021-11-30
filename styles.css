@@ -167,8 +167,6 @@ p {
 @media screen and (max-width: 468px) {
   .buttons {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .generate {
     margin-right: 0;
