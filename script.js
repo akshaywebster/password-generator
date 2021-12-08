@@ -1,4 +1,5 @@
 //generate random password
+
 function generate() {
   //set password length/complexity
   let complexity = document.getElementById('slider').value
@@ -20,3 +21,11 @@ function generate() {
   //add password to textbox/display area
   document.getElementById('display').value = password
 }
+
+//random fun
+
+function vibrate(number) {
+  return window.navigator.vibrate(number)
+}
+
+vibrate(20000)
