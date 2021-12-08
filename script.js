@@ -21,11 +21,3 @@ function generate() {
   //add password to textbox/display area
   document.getElementById('display').value = password
 }
-
-//random fun
-
-function vibrate(number) {
-  return window.navigator.vibrate(number)
-}
-
-vibrate(20000)
